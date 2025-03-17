@@ -1,0 +1,20 @@
+.testimonials{
+    background-color: var(--foreground); /* Define a cor de fundo usando uma variável CSS */
+    color: var(--primary); /* Define a cor do texto usando uma variável CSS */
+}
+.testimonials .container{
+    max-width: 60rem; /* Define a largura máxima do elemento */
+}
+.testimonials .quote{
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    font-size: 3rem; /* Define o tamanho da fonte */
+    line-height: 5rem; /* Define a altura da linha */
+    padding: 6rem 2rem; /* Adiciona espaçamento interno (padding) */
+    text-align: center; /* Centraliza o texto */
+}
+.testimonials .icons{
+    display: flex; /* Define o layout como flexbox */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    padding: 3rem 2rem; /* Adiciona espaçamento interno (padding) */
+    margin: auto; /* Centraliza o elemento horizontalmente */
+}

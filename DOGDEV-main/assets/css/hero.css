@@ -1,0 +1,41 @@
+.hero{
+    background-image: url(../images/hero-center.png);
+    background-size: auto 20rem;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: var(--hero-background);
+}
+
+.hero .box{
+    padding: 20rem 2rem 28rem 2rem;
+    max-width: 60rem;
+    
+}
+
+.hero h1{
+    font-family: "Grandstander", sans-serif;
+    font-weight: inherit ;
+    letter-spacing: -0.1rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    color: #fff;
+}
+.hero h1 span{
+    color: var(--secondary)
+    
+}
+.hero h2{
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 2rem 0;
+    color: #fff;
+}
+@media(width>900px){
+    .hero{
+        background-image: url(../images/hero.png);
+        background-size: 1950px auto;
+}
+    .hero .box{
+        padding: 15rem 2rem;
+    }
+}
